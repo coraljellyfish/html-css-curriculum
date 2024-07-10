@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #b2abf1;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  position: relative;
+}
+
+header h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  color: white;
+}
+
+.home {
+  margin: 0;
+  color: white;
+}
+
+
+a:link, a:visited {
+  background-color: #958ce8;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px 5px 5px 5px;
+  padding: 10px 20px;
+  border: none;
+  font-family: Inter, sans-serif;
+}
+
+a:hover, a:active {
+  background-color: #746ad2;
+}
