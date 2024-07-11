@@ -44,3 +44,23 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: #7368df;
 }
+
+a.no-style {
+  background-color: transparent !important;
+  color: blue !important;
+  text-align: inherit !important;
+  text-decoration: underline !important;
+  display: inline !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  margin: 0 !important;
+  font-family: inherit !important;
+}
+
+a.no-style:hover,
+a.no-style:active {
+  background-color: transparent !important;
+  color: blue !important;
+  text-decoration: underline !important;
+}
