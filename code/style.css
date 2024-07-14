@@ -8,7 +8,7 @@ body {
 
 header {
   background-color: #b2abf1;
-  padding: 20px;
+  padding: 12px;
   text-align: center;
 }
 
@@ -18,14 +18,14 @@ header {
   margin-right: 10px;
   margin-left: 10px;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 10px;
 }
 
 .lesson {
   background-color: #e5f8ff;
   border-radius: 20px;
   overflow: hidden;
-  width: calc(25% - 5px);
+  width: calc(25% - 10px);
   color: #333;
 }
 
@@ -48,10 +48,34 @@ header {
   padding: 10px;
 }
 
+.lesson-content .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .lesson-content p {
   margin: 0;
   padding: 0;
   height: 100px; 
   overflow: auto;
+}
+
+a {
+  color: #333;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #597f91;
+}
+
+.lesson-icons {
+  display: flex;
+  gap: 14px; 
+}
+
+.lesson-icons i {
+  font-size: 1.2em;
+  cursor: pointer;
 }
