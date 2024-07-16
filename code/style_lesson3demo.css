@@ -1,0 +1,44 @@
+body {
+  background-color: lavender;
+}
+
+h2 {
+  background-color: plum;
+  color: darkorchid;
+  font-weight: bold;
+  font-size: 30px;
+  text-align:left;
+  margin-right: 5px;
+  margin-left: 10px;
+  border: 4px solid gold;
+  font-family: Verdana;
+}
+
+.coolStyle {
+  background-color:lavenderblush;
+  border: 4px solid gold;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom:10px;
+  margin-left: 10px;
+  font-family: Verdana;
+}
+
+img {
+  border: 4px solid mediumpurple;
+  margin: 10px;
+}
+
+.coolLink {
+  color:aquamarine !important;
+  background-color: slateblue !important;
+  text-align: center !important;
+  display: inline-block !important;
+  padding: 10px 20px !important;
+  margin: 10px !important;
+  font-family: Verdana !important;
+}
+
+footer {
+  font-family: Verdana;
+}
