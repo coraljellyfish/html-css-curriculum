@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 5 Demo</title>
+    <link href="style1.css" rel="stylesheet">
+    <link href="style_lesson4demo.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <style>
+      h2 {
+        background-color: lemonchiffon;
+        animation-name: color-change;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes color-change {
+        0% {background-color: lemonchiffon;}
+        33% {background-color: #cdebff;}
+        66% {background-color: #ffcdda;}
+        100% {background-color: lemonchiffon;}
+      }
+
+      h2::before {
+        content: "✿ ";
+      }
+
+      h2::after {
+        content: " ✿";
+      }
+
+      .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      button {
+        background-color:#CDEBFF;
+        color:navy;
+        font-family: Verdana;
+        font-size: 18px;
+        border: 1px solid #CDEBFF;
+        border-radius: 8px;
+        padding: 10px;
+        margin:15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      button:hover {
+        background-color:#bbe2fc;
+      }
+
+      .coolLink:link {
+        background-color: slateblue;
+      }
+
+      .coolLink:hover {
+        background-color: #5a4aba !important;
+      }
+
+      img {
+        border-radius: 10%;
+        transition: width 0.25s, height 0.25s;
+      }
+
+      img:hover {
+        height: 240px;
+        width: auto;
+      }
+    </style>
+</head>
+<body>
+  <header>
+    <h1>All About Me! [Lesson 5 Demo]</h1>
+      <div class = "home">
+        <a href = https://html-css-curriculum.vercel.app><p>Home</p></a>
+      </div>
+  </header>
+  <h2 title = "All about me!"><b>Bio</b></h2>
+
+  <div class = "coolStyle">
+    <p>Hi! I am <span style = "color:royalblue;background-color:lightcyan;border:3px solid rebeccapurple">Daphne Blake</span>. I am a [x]th grader at Some Random Middle School. A fun fact about me is that I like to read historical fiction books.</p>
+
+    <img src = "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Daphne_Blake.png/150px-Daphne_Blake.png" alt = "Daphne Blake from Scooby Doo" height = 200px width = auto>
+
+  <br>
+  <a class = "coolLink" href="https://www.example.com" target = "_blank">Follow me on social media!</a>
+  </div>
+
+  <hr>
+  <h2><b>Favorite things</b></h2>
+
+  <div class = "coolStyle">
+  <p>Here are my favorite movie series:</p>
+  <ul>
+    <li>Harry Potter</li>
+    <li>Pirates of the Caribbean</li>
+    <li>Lord of the Rings</li>
+    <li>Star Wars</li>
+  </ul>
+
+  <p>Here are my favorite places and my favorite activities to do there.</p>
+  <ol type = "1">
+    <li>New York, NY, USA</li>
+      <ol type = "A">
+        <li>I like shopping here.</li>
+        <li>I like birdwatching at Central Park.</li>
+      </ol>
+    <li>Paris, France</li>
+      <ol type = "A">
+        <li>I like eating out here.</li>
+        <li>I like sightseeing here.</li>
+      </ol>
+    <li>London, England</li>
+    <ol type = "A">
+      <li>I like visiting museums here.</li>
+      <li>I like visiting the restaurants here, too.</li>
+    </ol>
+  </ol>
+
+  <p>Here are my favorite fruits and desserts.</p>
+  <table style = "border: 1px solid green">
+    <tr>
+      <th>Fruits</th>
+      <th>Desserts</th>
+    </tr>
+    <tr>
+      <td>Mangoes</td>
+      <td>Ice cream</td>
+    </tr>
+    <tr>
+      <td>Oranges</td>
+      <td>Tiramisu</td>
+    </tr>
+    <tr>
+      <td>Cherries</td>
+      <td>Apple pie</td>
+    </tr>
+    </table>
+  </div>
+  <hr>
+
+  <h2><b>Quiz</b></h2>
+  <div class = "coolStyle">
+    <div class = "questions">
+      <div id = "q1">
+  <p><b>What is my full name? <input></b></p>
+      </div>
+
+      <div id = "q2">
+  <p><b>What genre of books do I like to read?</b></p>
+  <p><input type = "radio">Mystery</p>
+  <p><input type = "radio">Historical fiction</p>
+  <p><input type = "radio">Fantasy</p>
+      </div>
+
+      <div id = "q3">
+  <p><b>Which of these movie series do I like?</b></p>
+  <p><input type = "checkbox">Lord of the Rings</p>
+  <p><input type = "checkbox">Guardians of the Galaxy</p>
+  <p><input type = "checkbox">Shrek</p>
+      </div>
+
+      <div id = "q4">
+  <p><b>Which place do I like to visit?</b></p>
+  <select>
+    <option>Select a city...</option>
+    <option>Sydney, Australia</option>
+    <option>Los Angeles, CA, USA</option>
+    <option>London, England</option>
+  </select>
+      </div>
+    </div>
+    <div class = "btn">
+    <button>Submit!</button>
+    </div>
+  </div>
+  <hr>
+  <a href="lesson5page3.html">Previous Page</a>
+  <a href="lesson6.html">Next lesson</a>
+  <hr>
+
+  <footer style = "background-color:midnightblue;color:coral;border:3px solid lavender;font-size:24px;text-align:center">Made by Daphne Blake</footer>
+</body>
+</html>
