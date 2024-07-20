@@ -14,3 +14,5 @@ Here are the slideshow links: <br>
 <a href = "https://docs.google.com/presentation/d/1d8TR4MSzV47_GU2AaZ8-X0phq4EEDHURu5uLiKCC3aI/edit?usp=sharing">Lesson 4</a>
 <br>
 <a href = "https://docs.google.com/presentation/d/1wFlXDG-sD88adFqP-buPJLwNUbe5xV6BTdIfNTEIu6o/edit?usp=sharing">Lesson 5</a>
+<br>
+<a href = "https://docs.google.com/presentation/d/1d5_W5MmYVXw1gJgojUQkyV0wSXpyb96GqpvYJpWLGEY/edit?usp=sharing">Lesson 6</a>
