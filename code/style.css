@@ -79,3 +79,9 @@ a:hover {
   font-size: 1.2em;
   cursor: pointer;
 }
+
+footer {
+  background-color: #b2abf1;
+  padding: 12px;
+  text-align: center;
+}
