@@ -17,4 +17,6 @@ Slideshow links: <br>
 <br>
 <a href = "https://docs.google.com/presentation/d/1d5_W5MmYVXw1gJgojUQkyV0wSXpyb96GqpvYJpWLGEY/edit?usp=sharing">Lesson 6</a>
 
+<img width="1437" alt="image" src="https://github.com/user-attachments/assets/159297a9-f47f-4781-ba4a-76233d12e628">
+
 
