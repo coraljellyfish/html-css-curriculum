@@ -1,6 +1,6 @@
 # Resources for Beginner Front-End Programmers - Curriculum
 
-This is a static website with a few different lessons that teach HTML and CSS for beginners. The homepage displays all of the lessons available with descriptions, and icons that link to the lessons' practice webpages, code, and slideshows for learning material. A capstone project is provided.
+This is a static website with a few different lessons that teach HTML and CSS for beginners. The [homepage]([url](https://html-css-curriculum.vercel.app/)) displays all of the lessons available with descriptions, and icons that link to the lessons' practice webpages, code, and slideshows for learning material. A capstone project is provided.
 
 Slideshow links: <br>
 <a href = "https://docs.google.com/presentation/d/13w8vHCMTdhBgNaJ2MT3IjfFwnt9cozCY-0eubkrqZWM/edit?usp=sharing">Lesson 1</a>
